@@ -1,0 +1,95 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(96, 79, 252, 0.082), white)
+}
+
+.board {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    background-color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.board:hover {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+    height: 60vw;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.blackBtn {
+    background-color: black;
+    color: white;    
+}
+
+.blackBtn:hover {
+    background-color: white;
+    color: black;  
+}
+
+.eraserBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.eraserBtn:hover {
+    background-color: black;
+    color: rgb(255,255,255);
+}
+
+.randomBtn{
+    background: linear-gradient(0.25turn, #f65cfc, #ebf8e1, #583cf6);
+}
+
+.randomBtn:hover{
+    background: linear-gradient(0.25turn, #20ff02, #ebf8e1, #aecc03);
+}
+
+input {
+    width: 50px;
+}
+
+.mode {
+    margin-bottom: 5px;
+}
+
+.error {
+    display: none;
+}
+
+
+
+
